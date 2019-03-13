@@ -1,0 +1,128 @@
+*{ 
+	margin:0;
+	padding:0;
+}
+body { 
+	font:"黑体" Arial, Helvetica, sans-serif;
+	background:#F2F2F2;
+}
+.tab { 
+}
+.tab_menu { 
+	//clear:both;
+	padding:15px 0 15px 0;
+	background:white;
+}
+.tab_menu li { 
+	line-height:20px;
+	text-align:center;
+	margin-left:4px;
+	width:30%;
+	list-style:none;
+	display:inline-block;
+	padding-bottom:10px;
+}
+.tab_menu li.hover { 
+}
+.tab_menu li.selected { 
+	color:red;
+	border-bottom:red solid 1px;
+}
+.tab_box { 
+ 	//clear:both;
+	margin:14px 10px 10px 16px;
+}
+.hide{
+	display:none
+}
+
+.demo{list-style:none;width:100%;height:100px;text-align:center;}
+/*.demo li{
+	position:relative;
+	width:30%;
+	height:100%;
+	margin-right:3%;
+	display:inline-block;
+}*/
+.demo .left{
+	position:relative;
+	width:30%;
+	height:100%;
+	margin-bottom:10px;	
+}
+.demo .left:before{content:"";position:absolute;left:0px;top:0;width:10px;height:100%;}
+.demo .left:before{content: "";position: absolute;top: -20px;display: block;width:10px;height:100%;margin-top: 20px;background-size: 20px 10px;}
+.demo .left:before{left: -10px;background-color: #F2F2F2;background-position: 100% 35%;
+}
+
+.avaliable{
+	background:#3A5FCD; 
+}
+.avaliable:before{
+  background-image: linear-gradient(-45deg, #3A5FCD 25%, transparent 25%, transparent),
+  linear-gradient(-135deg, #3A5FCD	 25%, transparent 25%, transparent),
+  linear-gradient(-45deg, transparent 75%, #3A5FCD 75%),
+  linear-gradient(-135deg, transparent 75%, #3A5FCD 75%);
+}
+
+.used, .expired{
+	background:grey;
+}
+.used:before, .expired:before{
+	background-image: linear-gradient(-45deg, grey 25%, transparent 25%, transparent),
+	linear-gradient(-135deg, grey 25%, transparent 25%, transparent),
+	linear-gradient(-45deg, transparent 75%, grey 75%),
+	linear-gradient(-135deg, transparent 75%, grey 75%);
+}
+
+.demo .right{
+	position:relative;
+	width:70%;
+	height:100%;
+	margin-bottom:10px;	
+	background:white;
+}
+
+.demo li{
+	display:inline-block;
+}
+
+.font-left{
+	float:left;
+	margin:10px;
+	color:white;
+}
+.font-left .yuan{
+	font:bolder;
+}
+.font-left .no{
+	font:30px bolder;
+}
+.font-left .lowest-consumption{
+	font-size:12px;
+}
+
+.right{
+	color:black;
+}
+.right .description{
+	float:left;
+	margin:10px;
+}
+.right .validate{
+	color:grey;
+	font-size:10px;
+}
+
+.used-seal{
+	width:140px;
+	height:auto;
+	float:right;
+	margin-top:-79px;
+	margin-right:30px;
+	transform:rotate(-35deg);
+	-ms-transform:rotate(-35deg); 	/* IE 9 */
+	-moz-transform:rotate(-35deg); 	/* Firefox */
+	-webkit-transform:rotate(-35deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-35deg); 	/* Opera */
+}

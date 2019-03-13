@@ -1,0 +1,43 @@
+*{ 
+	margin:0;
+	padding:0;
+}
+body { 
+	font:16px/19px "黑体" Arial, Helvetica, sans-serif;
+	color:white;
+}
+.tab { 
+	width:80%;
+	//margin:50px;
+}
+.tab_menu { 
+	//clear:both;
+}
+.tab_menu li { 
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	list-style:none;
+	padding:10px;
+	margin-right:4px;
+	background:#A1A1A1;
+	border:1px solid white;
+	border-bottom:none;
+	-moz-box-shadow: 0px 0px 10px #888888; /* 老的 Firefox */
+	box-shadow: 0px 0px 10px #888888;
+}
+.tab_menu li.hover { 
+	background:#A1A1A1;
+}
+.tab_menu li.selected { 
+	color:white;
+	background:red;
+}
+ .tab_box { 
+ 	clear:both;
+	border:1px solid #898989;
+	height:100px;
+}
+.hide{
+	display:none
+}

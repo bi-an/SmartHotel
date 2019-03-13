@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+body{
+	line-height:25px;
+}
+
+.m-title{
+	font-weight:bold;
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.division{
+	margin-bottom:15px;
+}
